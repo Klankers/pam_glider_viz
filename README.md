@@ -60,9 +60,11 @@ A subset of data collected from gliders in the Baltic Sea was provided by Ivia C
 - `Glider Data`. Does the upcast appear different than the downcast? What about individual glider states? Need to look at more data.
 - `Documentation`. Generate more documentation to assess scientific validity of the methods, create a more detailed notebook for the classroom and initiate a literature review.
 
-## Presentation
+## Documentation
 
-Glider rodeo presentation can be found here: <https://docs.google.com/presentation/d/1EysKwb2PTtAja1eO1xwhGM8LsgoKEaPa4V8nB1p2CXc/edit?usp=sharing>
+All documentation can be found in the [docs folder](https://github.com/Klankers/pam_glider_viz/tree/main/docs) of this repository.
+
+The original presentation from the glider rodeo can be found here: <https://docs.google.com/presentation/d/1EysKwb2PTtAja1eO1xwhGM8LsgoKEaPa4V8nB1p2CXc/edit?usp=sharing>
 
 ## Next Steps
 
