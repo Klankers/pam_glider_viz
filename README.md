@@ -59,10 +59,6 @@ Meanwhile, data are visualized in 4 ways:
 * `Spectrogram`. Frequency on the Y axis, time on the X, magnitude on the Z. In the spectrogram viewer mode, there is functionality to listen to the visualized sound. 
 * `Long term spectral average`. Frequency on the Y axis, time on the X (days), magnitude on the Z.
 
-### Datasets
-
-A subset of data collected from gliders in the Baltic Sea was provided by Ivia Closset to test the visualization tool.
-
 ### Workflow and Installation
 
 ![demo](https://github.com/Klankers/pam_glider_viz/blob/main/demo.gif?raw=true)
@@ -104,6 +100,8 @@ Claude AI was used in building this project.
 
 **Dataset**  
 Rankin, S., Fregosi, S., & Burger, K. (2026). *NOAA Fisheries Glider Rodeo 2026 Preliminary Hackathon Dataset* (v1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23046205
+
+A subset of data collected from gliders in the Baltic Sea was provided by Ivia Closset to test the visualization tool.
 
 **Glider Rodeo research compendium**  
 Rankin, S., Fregosi, S., & Burger, K. (2026). *Research Compendium for NOAA Fisheries Glider Rodeo* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.23046571 (GitHub: [NMFS-PAM-Glider/GliderRodeo](https://github.com/NMFS-PAM-Glider/GliderRodeo))
