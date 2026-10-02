@@ -63,9 +63,13 @@ Meanwhile, data are visualized in 4 ways:
 
 A subset of data collected from gliders in the Baltic Sea was provided by Ivia Closset to test the visualization tool.
 
-### Workflow
+### Workflow and Installation
 
 ![demo](https://github.com/Klankers/pam_glider_viz/blob/main/demo.gif?raw=true)
+
+To set up the application for immediate use on exploring your own datasets, clone the repository using `git clone git@github.com:Klankers/pam_glider_viz.git`. Install the dependencies listed in `environment.yaml`, then use `streamlit run src/pam_glider_viz/app.py` to run the application in your browser.
+
+To install as a Python package, use `pip install pam-glider-viz` and import modules as needed. For example, `from pam_glider_viz import transformers`.
 
 ## Lessons Learned
 
