@@ -44,9 +44,15 @@ DATA_DIR = "/your/directory/here"                                       #   Modi
 # DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  #   For running with data in the immediate folder above this one
 # DATA_DIR = "/home/jovyan/shared-public/GliderRodeo/audio"               #   When hosted on JupyterHub, this was where the data lived
 if not Path(DATA_DIR).exists():
-    print(f"Data directory '{DATA_DIR}' not found. Select a new one where the PAM files live, and consider modifying it in `app.py`.")
-    from tkinter import filedialog
-    DATA_DIR = filedialog.askdirectory()
+    if "data_dir" not in st.session_state:
+        print(f"Data directory '{DATA_DIR}' not found. Select a new one where the PAM files live, and consider modifying it in `app.py`.")
+        from tkinter import filedialog
+        picked = filedialog.askdirectory()
+        if not picked:
+            st.error("No data directory selected or the selection window was closed. Refresh the page to pick one, or set `DATA_DIR` in `app.py`.")
+            st.stop()
+        st.session_state["data_dir"] = picked
+    DATA_DIR = st.session_state["data_dir"]
 
 # Where the .ltsa files live. Defaults to the folder holding the audio dir, so
 # audio/ and the LTSAs can sit side by side under GliderRodeo.
