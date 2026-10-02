@@ -69,8 +69,6 @@ A subset of data collected from gliders in the Baltic Sea was provided by Ivia C
 
 All documentation can be found in the [docs folder](https://github.com/Klankers/pam_glider_viz/tree/main/docs) of this repository.
 
-The original presentation from the glider rodeo can be found here: <https://docs.google.com/presentation/d/1EysKwb2PTtAja1eO1xwhGM8LsgoKEaPa4V8nB1p2CXc/edit?usp=sharing>
-
 ## Next Steps
 
 We ran our tool against a controlled subset of data. Looking at more data, including other makes and models, would be helpful to iron out bugs and confirm scenarios that should be supported. 
@@ -87,12 +85,22 @@ We ran our tool against a controlled subset of data. Looking at more data, inclu
 
 Take criticism! If there are suggestions or improvements, we should take them as GitHub issues such that we can stay organized and the community can know its shortcomings.
 
-## References
+## References and Citations
 
-We used the assistance of Claude AI for this project.
+Claude AI was used in building this project.
+
+**Dataset**  
+Rankin, S., Fregosi, S., & Burger, K. (2026). *NOAA Fisheries Glider Rodeo 2026 Preliminary Hackathon Dataset* (v1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23046205
+
+**Glider Rodeo research compendium**  
+Rankin, S., Fregosi, S., & Burger, K. (2026). *Research Compendium for NOAA Fisheries Glider Rodeo* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.23046571 (GitHub: [NMFS-PAM-Glider/GliderRodeo](https://github.com/NMFS-PAM-Glider/GliderRodeo))
 
 ## Acknowledgements
 
 This project was part of a [Glider Rodeo Hackathon] which worked with (or was inspired by) PAM-Glider data collected by the NOAA Fisheries Glider Rodeo (2026). This weeklong event was hosted by NOAA Fisheries with support by Openscapes (JupyterHub, Support), Oregon State University (Zoom, Box data storage), Aquaview (technical support).
+
+The original presentation from the glider rodeo can be found on the [Google drive here](https://docs.google.com/presentation/d/1EysKwb2PTtAja1eO1xwhGM8LsgoKEaPa4V8nB1p2CXc/edit?usp=sharing).
+
+The original repository can be found on the [NMFS-PAM-Glider repository here](https://github.com/NMFS-PAM-Glider/hackathon-shared-repo/tree/main/pam-visualizer).
 
 ![logo](https://github.com/Klankers/pam_glider_viz/blob/main/yeehaw.jpeg?raw=true)
