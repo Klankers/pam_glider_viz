@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pam-glider-viz"
+version = "1.0.0"
+description = "A Streamlit app for exploring PAM glider audio and LTSA data"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "plotly",
+    "streamlit",
+    "soundfile",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
