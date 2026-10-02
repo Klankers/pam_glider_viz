@@ -1,10 +1,3 @@
----
-
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # PAM Transformer Visualizer
 
 A `streamlit` application for loading Passive Acoustic Monitoring (PAM) and Long-Term Spectral Average (LSTA) data and exploring different filtering techniques on the data.
@@ -13,9 +6,9 @@ A `streamlit` application for loading Passive Acoustic Monitoring (PAM) and Long
 
 | Name | Institution | Email | Other |
 |----------------|-------------------------|----------------|----------------|
-| Ivia Closset | Finnish Meteorological Institute | [ivia.closset\@fmi.fi](mailto:ivia.closset@fmi.fi){.email} |  |
-| Brijonnay Madrigal | University of California, San Diego | [brmadrigal\@ucsd.edu](mailto:brmadrigal@ucsd.edu){.email} |  |
-| Aaron Mau | Voice of the Ocean Foundation | [aaron.mau\@voiceoftheocean.org](mailto:aaron.mau@voiceoftheocean.org){.email} | No PAM experience! |
+| Ivia Closset | Finnish Meteorological Institute | [ivia.closset\@fmi.fi](mailto:ivia.closset@fmi.fi) |  |
+| Brijonnay Madrigal | University of California, San Diego | [brmadrigal\@ucsd.edu](mailto:brmadrigal@ucsd.edu) |  |
+| Aaron Mau | Voice of the Ocean Foundation | [aaron.mau\@voiceoftheocean.org](mailto:aaron.mau@voiceoftheocean.org) | No PAM experience! |
 
 ## Folder Structure
 
@@ -46,7 +39,11 @@ This grew when the project was proposed - hearing feedback that it would be help
 - `fft` - filtering frequencies and breaking into sinusoidal components
 - `PSD (Welch)` - similar to fft, but by averaging the spectrum from various chunks
 
-Meanwhile, data are visualized in 4 ways: \* `Waveform`. Amplitude on the Y axis, time on the X. \* `Spectrum`. Magnitude on the Y axis, frequency on the X. \* `Spectrogram`. Frequency on the Y axis, time on the X, magnitude on the Z. In the spectrogram viewer mode, there is functionality to listen to the visualized sound. \* `Long term spectral average`. Frequency on the Y axis, time on the X (days), magnitude on the Z.
+Meanwhile, data are visualized in 4 ways: 
+* `Waveform`. Amplitude on the Y axis, time on the X. 
+* `Spectrum`. Magnitude on the Y axis, frequency on the X. 
+* `Spectrogram`. Frequency on the Y axis, time on the X, magnitude on the Z. In the spectrogram viewer mode, there is functionality to listen to the visualized sound. 
+* `Long term spectral average`. Frequency on the Y axis, time on the X (days), magnitude on the Z.
 
 ### Datasets
 
@@ -60,7 +57,7 @@ A subset of data collected from gliders in the Baltic Sea was provided by Ivia C
 
 ## Next Steps
 
-- `Glider Data`. Does the upcast appear different than the downcast? What about individual glifer states? Need to look at more data.
+- `Glider Data`. Does the upcast appear different than the downcast? What about individual glider states? Need to look at more data.
 - `Documentation`. Generate more documentation to assess scientific validity of the methods, create a more detailed notebook for the classroom and initiate a literature review.
 
 ## Presentation
@@ -69,7 +66,14 @@ Glider rodeo presentation can be found here: <https://docs.google.com/presentati
 
 ## Next Steps
 
-We ran our tool against a controlled subset of data. Looking at more data, including other makes and models, would be helpful to iron out bugs and confirm scenarios that should be supported. \* Pair to glider data \* Possibly "disable" the upcasts, or analyze the upcasts vs the downcasts \* Investigate the glider state. Is it noisier during inflections? Can we remove it when it's at the surface and getting splashed around? \* Save/load settings or a chain of transforms? \* Documentation \* Assess the scientific validity \* Simple English for a variety of audiences \* Detailed notebook to serve as a walkthrough \* Add some literature review, such that users can learn more about the applications and algorithms
+We ran our tool against a controlled subset of data. Looking at more data, including other makes and models, would be helpful to iron out bugs and confirm scenarios that should be supported. 
+* Pair to glider data \* Possibly "disable" the upcasts, or analyze the upcasts vs the downcasts 
+* Investigate the glider state. Is it noisier during inflections? Can we remove it when it's at the surface and getting splashed around? \* Save/load settings or a chain of transforms? 
+* Documentation 
+* Assess the scientific validity 
+* Simple English for a variety of audiences 
+* Detailed notebook to serve as a walkthrough 
+* Add some literature review, such that users can learn more about the applications and algorithms
 
 Take criticism! If there are suggestions or improvements, we should take them as GitHub issues such that we can stay organized and the community can know its shortcomings.
 
