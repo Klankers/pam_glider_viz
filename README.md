@@ -17,6 +17,15 @@ A `streamlit` application for loading Passive Acoustic Monitoring (PAM) and Long
 
 ## Folder Structure
 
+This repository follows the [Simple packaging outline](https://learn.scientific-python.org/development/guides/packaging-simple/) described in the Scientific Python Development Guide.
+
+* `src/pam_glider_viz/` - the folder where the essential code lives.
+* `docs/` - a folder for documentation, either automatically or manually generated for different purposes.
+* `tests/` - a folder containing unit tests for robustness.
+* `pyproject.toml` - a file describing the project and requirements for operation.
+* `environment.yaml` - a file for building a Conda/Mamba environment with the required packages.
+* See the `README` (this document), `LICENSE`, and `AI_POLICY` files in the root directory for more information about contributions.
+
 ## Background
 
 This project originated from a common desire to explore the data processing aspects of PAM data. What is typically done when going from the raw file to the final product? How do these different filters modify the data, especially when compared with one another? Furthermore, what are the best ways to visualize these changes?
