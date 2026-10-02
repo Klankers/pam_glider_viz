@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/v/release/Klankers/pam_glider_viz)](https://github.com/Klankers/pam_glider_viz/releases)
+[![Tests](https://github.com/Klankers/pam_glider_viz/actions/workflows/pypi.yml/badge.svg)](https://github.com/Klankers/pam_glider_viz/actions/workflows/pypi.yml)
+
 # PAM Transformer Visualizer
 
 A `streamlit` application for loading Passive Acoustic Monitoring (PAM) and Long-Term Spectral Average (LSTA) data and exploring different filtering techniques on the data.
