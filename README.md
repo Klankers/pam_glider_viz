@@ -1,7 +1,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/Klankers/pam_glider_viz)](https://github.com/Klankers/pam_glider_viz/releases)
 [![Tests](https://github.com/Klankers/pam_glider_viz/actions/workflows/pypi.yml/badge.svg)](https://github.com/Klankers/pam_glider_viz/actions/workflows/pypi.yml)
 [![PyPI Python Versions](https://img.shields.io/pypi/pyversions/pam-glider-viz.svg)](https://pypi.org/project/pam-glider-viz/)
-[![License](https://img.shields.io/pypi/l/pam-glider-viz.svg)](https://github.com/Klankers/pam_glider_viz/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Klankers/pam_glider_viz)](https://github.com/Klankers/pam_glider_viz/blob/main/LICENSE)
 
 # PAM Transformer Visualizer
 
