@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pam-glider-viz"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Streamlit app for exploring PAM glider audio and LTSA data"
 readme = "README.md"
 requires-python = ">=3.13"
