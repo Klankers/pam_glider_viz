@@ -51,7 +51,7 @@ A subset of data collected from gliders in the Baltic Sea was provided by Ivia C
 
 ### Workflow
 
-![demo](https://github.com/Klankers/pam_glider_viz/demo.gif?raw=true)
+![demo](https://github.com/Klankers/pam_glider_viz/blob/main/demo.gif?raw=true)
 
 ## Lessons Learned
 
@@ -90,4 +90,4 @@ We used the assistance of Claude AI for this project.
 
 This project was part of a [Glider Rodeo Hackathon] which worked with (or was inspired by) PAM-Glider data collected by the NOAA Fisheries Glider Rodeo (2026). This weeklong event was hosted by NOAA Fisheries with support by Openscapes (JupyterHub, Support), Oregon State University (Zoom, Box data storage), Aquaview (technical support).
 
-![logo](https://github.com/Klankers/pam_glider_viz/yeehaw.jpeg?raw=true)
+![logo](https://github.com/Klankers/pam_glider_viz/blob/main/yeehaw.jpeg?raw=true)
