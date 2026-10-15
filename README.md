@@ -69,6 +69,12 @@ To install as a Python package, use `pip install pam-glider-viz` and import modu
 
 ## Lessons Learned
 
+* Typical PAM datasets, how to load them, and typical visualization methods
+* How to load long time periods
+* Build familiarity with other toolboxes
+* Glider operations and impacts on noise - which are visible and audible in the data
+* JupyterLab and collaborative, asynchronous development
+
 ## Next Steps
 
 - `Glider Data`. Does the upcast appear different than the downcast? What about individual glider states? Need to look at more data.
