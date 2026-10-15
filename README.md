@@ -11,8 +11,8 @@ A `streamlit` application for loading Passive Acoustic Monitoring (PAM) and Long
 
 | Name | Institution | Email | Other |
 |----------------|-------------------------|----------------|----------------|
-| Ivia Closset | Finnish Meteorological Institute | [ivia.closset\@fmi.fi](mailto:ivia.closset@fmi.fi) |  |
-| Brijonnay Madrigal | University of California, San Diego | [brmadrigal\@ucsd.edu](mailto:brmadrigal@ucsd.edu) |  |
+| Ivia Closset | Finnish Meteorological Institute | [ivia.closset\@fmi.fi](mailto:ivia.closset@fmi.fi) | Struggling with big data |
+| Brijonnay Madrigal | University of California, San Diego | [brmadrigal\@ucsd.edu](mailto:brmadrigal@ucsd.edu) | New to gliders |
 | Aaron Mau | Voice of the Ocean Foundation | [aaron.mau\@voiceoftheocean.org](mailto:aaron.mau@voiceoftheocean.org) | No PAM experience! |
 
 ## Folder Structure
